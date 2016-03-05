@@ -1,0 +1,80 @@
+body {
+  background-color: beige;
+}
+#main {
+  width: 600px;
+  margin: 50px auto;
+}
+#main h1 {
+  color: black;
+  text-align: center;
+  text-shadow: 1px 1px grey, -1px -1px snow, 1px -1px snow, -1px 1px snow;
+}
+#machine {
+  width: 600px;
+  margin: 50px auto;
+}
+#colors {
+  width: 450px;
+}
+#colors button {
+  width: 200px;
+  height: 200px;
+  outline: none;
+  border: none;
+}
+#green {
+  background-color: darkgreen;
+  border-top-left-radius: 200px;
+}
+#red {
+  background-color: firebrick;
+  border-top-right-radius:200px;
+}
+#yellow {
+  background-color: #B39700;
+  border-bottom-left-radius: 200px;
+}
+#blue {
+  background-color: royalblue;
+  border-bottom-right-radius: 200px;
+}
+#commands {
+  margin: 50px auto;
+  width: 466px;
+}
+#commands button {
+  font-size: 18px;
+  padding: 10px 16px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+}
+#commands button:disabled {
+  opacity: 0.5;
+}
+#screen {
+  text-align: center;
+  border: 5px solid brown;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: darkslategray;
+  font-size: 26px;
+  width: 68px;
+  height: 48px;
+
+}
+#onoff {
+  
+}
+#onoff button {
+  margin-right: -3px;
+  margin-left: -3px;
+}
+#start {
+
+}
+#strict {
+
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="main" class="container">
+      <h1>Simon Game</h1>
+      <div id="machine" class="container">
+        <div id="colors" class="container">
+          <button id="green" disabled></button>
+          <button id="red" disabled></button>
+          <button id="yellow" disabled></button>
+          <button id="blue" disabled></button>
+        </div>
+        <div id="commands" class="container row">
+          <div id="screen" class="col-md-2"><span></span></div>
+          <div id="onoff" class="col-md-4" role="group">
+            <button type="button" id="on" >On</button>
+            <button type="button" id="off" disabled>Off</button>
+          </div>
+          <div id="start" class="col-md-3" role="group">
+            <button type="button" disabled>Start</button>
+          </div>
+          <div id="strict" class="col-md-3" role="group">
+            <button type="button" disabled>Strict</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
